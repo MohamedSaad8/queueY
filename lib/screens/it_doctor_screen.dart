@@ -3,21 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
-class DoctorScreen extends StatelessWidget {
+class ITDoctorScreen extends StatelessWidget {
   List<String> doctorsNames = [
-    "Dr / Mostafa Elgayar",
-    "Dr / Noha Hikal",
-    "Dr / Hassan Soliman",
-    "Dr / mohamed Elmogy",
-    "Dr / Fatma Elzahra",
-    "Dr / Osama AboElnaser",
-    "Dr / Sara Elmetwaly",
-    "Dr / waled Al-Adrosy",
-    "Dr / mohamed Hagag",
-    "Dr / mohamed seyam",
-    "Dr / Hazem Elbakery",
-    "Dr / Ahmed AboElfetoh",
-    "Dr / Amira Rizk Hagag",
+    "Dr/Mostafa Algayar",
+    "Dr/Noha Hikal",
+    "Dr/Hassan soliman",
+    "Dr/Mohamed Elmogy",
+    "Dr/Fatma Elzahraa",
+    "Dr/Nehal Sakr",
+    "Dr/Eman Eldidamony",
+    "Dr/Reham Mostafa",
+    "Dr/Nagham Mekky",
+
+
+
   ];
 
   @override
@@ -68,7 +67,7 @@ class DoctorScreen extends StatelessWidget {
               itemBuilder: (context, index) {
                 return Padding(
                   padding:
-                      const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                   child: Container(
                     width: MediaQuery.of(context).size.width,
                     height: 100.h,
@@ -81,7 +80,7 @@ class DoctorScreen extends StatelessWidget {
                         CircleAvatar(
                           radius: 40.w,
                           backgroundImage:
-                              ExactAssetImage("assets/images/user.png"),
+                          ExactAssetImage("assets/images/user.png"),
                         ),
                         SizedBox(
                           width: 20.w,

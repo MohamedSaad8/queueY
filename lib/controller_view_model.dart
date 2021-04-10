@@ -1,21 +1,21 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:queuey/screens/about.dart';
-import 'package:queuey/screens/doctor_screen.dart';
+import 'package:queuey/screens/cs_doctor_screen.dart';
 import 'package:queuey/screens/notifications.dart';
 import 'package:queuey/screens/report.dart';
 class ControlHomeViewModel extends GetxController
 {
   int _navigatorValue = 0 ;
   int get navigatorValue => _navigatorValue ;
-  Widget _currentScreen = DoctorScreen() ;
+  Widget _currentScreen = CSDoctorScreen() ;
   Widget get currentScreen => _currentScreen ;
 
   void changeSelectedValue(int currentIndex){
     _navigatorValue = currentIndex ;
     switch(currentIndex)
     {
-      case 0 : _currentScreen =  DoctorScreen();
+      case 0 : _currentScreen =  CSDoctorScreen();
       break;
       case 1 : _currentScreen =  Notifications();
       break;

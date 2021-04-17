@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:get/get.dart';
-import 'package:queuey/screens/controll_view.dart';
 import 'package:queuey/screens/cs_doctor_screen.dart';
 
 class UserBusiness extends StatelessWidget {
@@ -37,7 +35,7 @@ class UserBusiness extends StatelessWidget {
           SizedBox(height: 30.h,),
           InkWell(
             onTap: (){
-              Get.to(()=> ControllView());
+
             },
             child: Container(
               decoration: BoxDecoration(
@@ -62,7 +60,7 @@ class UserBusiness extends StatelessWidget {
           SizedBox(height: 30.h,),
           InkWell(
             onTap: (){
-              Get.to(()=> ControllView());
+
             },
             child: Container(
               decoration: BoxDecoration(

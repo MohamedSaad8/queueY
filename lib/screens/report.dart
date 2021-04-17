@@ -112,7 +112,7 @@ class Report extends StatelessWidget {
                       ),
                     ),
                     SizedBox(width: 5.w,),
-                    Text("Upload screenshot if available" , style: TextStyle(fontWeight: FontWeight.bold),),
+                    Text("Upload screenshot if available" , style: TextStyle(fontWeight: FontWeight.bold , fontSize: 15.sp),),
                   ],
                 ),
 
